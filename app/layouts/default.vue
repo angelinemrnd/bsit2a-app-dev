@@ -8,6 +8,9 @@
           subtitle="Logged in"
           title="Jane Smith"
         ></v-list-item>
+        <v-list-item>
+
+        </v-list-item>
       </template>
 
       <v-divider></v-divider>
@@ -28,6 +31,19 @@
           title="Users"
           value="users"
         ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="dashboard"
+          value="dashboard"
+          to="/dashboard"
+        ></v-list-item>
+         <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="prelim"
+          value="prelim"
+          to="/prelim"
+        ></v-list-item>
+
       </v-list>
     </v-navigation-drawer>
 
