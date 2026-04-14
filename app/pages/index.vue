@@ -36,9 +36,17 @@ const defaultUsername = ref("admin");
 const defaultPassword =  ref("admin123")
 const username = ref("");
 const password = ref("");
+
 //regular function
 function login() {
-  alert("Login function called");
+  if (username.value === defaultUsername.value &&
+      password.value === defaultPassword.value
+    ) {
+      //navigate to dashboard
+    navigateTo("/dashboard");
+   } else  {
+    //show alert messages
+    alert("Invalid Username or Password");
+  }
 }
-
 </script>

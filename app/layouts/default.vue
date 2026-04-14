@@ -18,31 +18,28 @@
       <v-list density="compact" nav>
         <v-list-item
           prepend-icon="mdi-home-city"
-          title="Home"
-          value="home"
-        ></v-list-item>
-        <v-list-item
-          prepend-icon="mdi-account"
-          title="My Account"
-          value="account"
-        ></v-list-item>
-        <v-list-item
-          prepend-icon="mdi-account-group-outline"
-          title="Users"
-          value="users"
-        ></v-list-item>
-        <v-list-item
-          prepend-icon="mdi-account-group-outline"
           title="dashboard"
           value="dashboard"
-          to="/dashboard"
         ></v-list-item>
-         <v-list-item
+        <v-list-item
           prepend-icon="mdi-account-group-outline"
           title="prelim"
           value="prelim"
           to="/prelim"
         ></v-list-item>
+         <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="calculate"
+          value="calculate"
+          to="/calculate"
+        ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="midterm"
+          value="midterm"
+          to="/midterm"
+        ></v-list-item>
+        
 
       </v-list>
     </v-navigation-drawer>
@@ -58,7 +55,7 @@
       <v-container fluid>
         <slot />
       </v-container>
-    </v-main>
+    </v-main> 
   </v-app>
 </template>
 
