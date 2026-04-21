@@ -39,6 +39,12 @@
           value="midterm"
           to="/midterm"
         ></v-list-item>
+        <v-list-item
+          prepend-icon="mdi-account-group-outline"
+          title="todo"
+          value="todo"
+          to="/todo"
+        ></v-list-item>
         
 
       </v-list>
